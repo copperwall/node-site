@@ -1,0 +1,56 @@
+/* Style for the main page */
+
+body {
+   background-image: url('/images/background.jpg');
+   background-position: center;
+   background-size: cover;
+}
+
+h1, p {
+   color: white;
+}
+
+.main {
+   text-align:center;
+   margin: auto !important;
+   position: relative;
+   top: 48%;
+   transform: translateY(-50%);
+   width: 500px;
+}
+
+#top-nav {
+   margin-top: 10px;
+   <!-- margin-right: 40px; -->
+}
+
+#top-nav li {
+   color: white;
+   margin-right: 25px;
+}
+
+#top-nav li a {
+   color: #EEE;
+   font-size: 16px;
+}
+
+#top-nav li a:hover, a:focus { 
+   background-color: rgba(0,0,0, 0) !important;
+}
+
+#top-nav li:hover {
+   box-shadow: 0px 3px red;
+}
+
+#name {
+   font-size: 58px;
+   text-shadow: black 0 2px;
+}
+
+#name-desc {
+   font-size: 24px;
+}
+
+#name, #name-desc {
+   text-align: center;
+}
