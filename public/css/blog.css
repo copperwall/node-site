@@ -32,7 +32,10 @@
    padding-right: 10px;
    padding-left: 10px;
    margin-bottom: 50px;
-   color: black;
+}
+
+.post .lead, .post p {
+   color:black;
 }
 
 .post-link:hover {
