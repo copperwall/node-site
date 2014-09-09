@@ -11,6 +11,7 @@ h1, p {
 }
 
 .main {
+   display: none;
    text-align:center;
    margin: auto !important;
    position: relative;
@@ -19,19 +20,31 @@ h1, p {
    width: 500px;
 }
 
+footer {
+   position:absolute;
+   bottom: 40px;
+   width: 100%;
+}
+
 #top-nav {
+   display: none;
    margin-top: 10px;
-   <!-- margin-right: 40px; -->
+
+   margin-right: 35%;
+   /* width: 100%; */
+   /* <!-- margin-right: 40px; --> */
 }
 
 #top-nav li {
    color: white;
-   margin-right: 25px;
+   float: left;
+   margin-right: 55px;
+   /* margin-right: 25px; */
 }
 
 #top-nav li a {
    color: #EEE;
-   font-size: 16px;
+   font-size: 18px;
 }
 
 #top-nav li a:hover, a:focus { 
